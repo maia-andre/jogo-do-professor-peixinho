@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
-.audio {
+.musica {
+    all: unset;
+    cursor: pointer;
     position: absolute;
-    right: 0;
-    margin: 15px 15px;
-    opacity: 50%;
+    margin: 0%;
+    padding: 0%;
+    opacity: 70%;
+    top: 3%;
+    right: 3%;
 }
 
 .game-board {
