@@ -1,13 +1,12 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
-const audio = document.querySelector('.musica');
 
 function ligarMusica() {
     const audio = new Audio('/audio/following_pixel_stars.mp3');
-    if(audio == false){
-    audio.addEventListener('canplaythrough')
+    audio.addEventListener('canplaythrough', function() {
     audio.play();
-}};
+});
+}
 
 const jump = () => {
     mario.classList.add('jump');

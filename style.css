@@ -5,12 +5,10 @@
 }
 
 .musica {
-    all: unset;
     cursor: pointer;
     position: absolute;
     margin: 0%;
     padding: 0%;
-    opacity: 70%;
     top: 3%;
     right: 3%;
 }
